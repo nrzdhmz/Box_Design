@@ -1,0 +1,101 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(71, 21, 93);
+    color: rgb(206, 203, 209);
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pro{
+    background-color: yellow;
+    position: absolute;
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    color: black;
+    border-radius: 3px;
+    margin-right: 220px;
+    margin-top: -400px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    background-color: rgba(45, 6, 61, 0.522);
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+h2{
+    font-weight: 400;
+    margin:10px 0;
+}
+h4{
+    font-weight: 400;
+    margin-top: -4px;
+    font-size: 15px;
+
+}
+.profile p{
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+}
+.image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: solid 2px rgb(154, 208, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+button{
+    width: 110px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.message-button{
+    background-color: lightskyblue;
+    border: none;
+}
+.follow-button{
+    background-color: rgb(85, 44, 102);
+    border: lightskyblue 1px solid;
+    color: lightskyblue;
+}
+.skills {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.skills p {
+    font-weight: 400;
+    color: rgb(206, 203, 209);
+    margin-right: 305px;
+    margin-bottom: 5px;
+}
+
+.skills div {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px rgb(77, 57, 94) solid;
+    border-radius: 5px;
+    color: rgb(206, 203, 209);
+}
